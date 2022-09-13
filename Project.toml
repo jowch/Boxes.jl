@@ -1,4 +1,7 @@
 name = "Boxes"
 uuid = "9cc72bba-c3e9-4c50-a587-9ba222faa6ec"
 authors = ["Jonathan Chen <jwhc@ucla.edu>"]
-version = "0.1.0"
+version = "0.1.1"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"

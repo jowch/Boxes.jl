@@ -1,5 +1,7 @@
 module Boxes
 
+using LinearAlgebra: norm
+
 import Base: ==, contains, convert, to_indices
 
 export
