@@ -1,8 +1,8 @@
 """
 	CenterBox(x, y, h, w)
 
-A box is a... It is defined by...
-"""
+    A `CenterBox` is a box defined by the `center (x, y)`, width `w`, and height `h`. The center is floored for non-integers.
+    """
 struct CenterBox{T<:Integer} <: AbstractBox
     x::T
     y::T
