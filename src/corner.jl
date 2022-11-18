@@ -1,7 +1,7 @@
 """
     CornerBox(x, y, w, h)
 
-A `CornerBox` is... The corner is expected to be the smallest magnitude corner.
+A `CornerBox` is a box defined by the `topleft (x, y)` corner, width `w`, and height `h`. The `topleft` corner is expected to be the smallest magnitude corner.
 """
 struct CornerBox{T<:Integer} <: AbstractBox
     x::T
