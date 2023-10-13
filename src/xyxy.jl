@@ -1,7 +1,7 @@
 """
-    XYXYBox(x, y, w, h)
+    XYXYBox(x₁, y₁, x₂, y₂)
 
-A `XYXYBox` is... The corner is expected to be the smallest magnitude corner.
+A `XYXYBox` is a box defined by the `topleft (x₁, y₁)` and `bottomright (x₂, y₂)` corners. The `topleft` corner is expected to be the smallest magnitude corner.
 """
 struct XYXYBox{T<:Integer} <: AbstractBox
     x₁::T
